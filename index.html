@@ -1,55 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sean's personal site</title>
-  </head>
-  <body>
-    <img src="Sora_and_Mario-modified.png" alt="">
-    <h1>Sean H</h1>
-    <p><i>A student of Angela Yu's Udemy course</i> <em>This is practice</em></p>
-    <p>I am an <strong>aspiring</strong> developer and creator. I have used other resources to learn, but I'm confident in <strong>Dr. Yu's</strong>  course</p>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=EB+Garamond:wght@500&display=swap" rel="stylesheet">
+    <title>Sean Horace</title>
+</head>
+<body>
+    <div class="top-container">
+        <img class="TopCloud" src="cloud.png" alt="">
+        <h1>I'm Sean.</h1>
+        <p class="occupation" >The <span class="pro">pro</span>grammer</p>
+        <img class="bottomCloud" src="cloud.png" alt="">
+        <img src="mountain.png" alt="">
+    </div>
+<!-- The "Span element" is an inline display element that only takes up as much as space as it needs to.
+Images are also considered as inline elements.
+To help standard elements share the same space and be changable, use inline-block display or flex
+"Display: None" will remove an element completely and can't be interacted with. Like deleting something.-->
+    <div>    
+        <div class="middle-container">
+            <img class="profile" src="coding selfie-modified.png" alt="A selfie of Sean">
+            <h2>Hello</h2>
+                <p class="intro">I am an aspiring web developer and my journey to web development is fairly new. I expect learning this to be complicated, but I enjoy a constant challenge because it helps me improve.</p>
+            <h2>My Skills</h2>
+            <div class="skills_row">    
+            <img class="SkillsImage1" src="computer-modified.png" alt="a pretend computer">
+                <h3 class="skills" >Design & development</h3>
+                <p class="skills" >I have always loved using technology, but I never thought I was capable of learning how to create it or build a career in it. I have been coding for about 5 months, and I build a decent web page.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="skills_row">
+            <img class="SkillsImage2" src="Napping Koala-modified.png" alt="a napping Koala">
+            <h3 class="skills" >No Bed? No Problem</h3>
+            <p class="sleep-skills">One of my coolest skills is my ability to sleep just about anywhere. All I need is to rest my body for a moment, then cover my eyes. Within minutes, I'm sleeping like a log.</p>
+        </div>
+    </div>    
     <hr>
-    <h3>Books and Teaching</h3>
-    <ul>
-      <li>W3 Schools</li>
-      <li>Codecademy</li>
-      <li>Coding Dojo</li>
-    </ul>
-    <hr>
-    <h3>Work Experiences</h3>
-    <table cellspacing="10">
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Descriptions</th>
-        </tr>
-      </thead>
-      <tr>
-        <td>2019-current</td>
-        <td>Phone Bank at WF</td>
-      </tr>
-      <tr>
-        <td>2017-2019</td>
-        <td>Behavioral Therapist</td>
-      </tr>
-    </table>
-    <hr>
-    <h3>Skills</h3>
-    <table cellspacing="10">
-      <tr>
-        <td>HTML</td>
-        <td>👍👍👍👍</td>
-      </tr>
-      <tr>
-        <td>CSS</td>
-        <td>👍👍👍👍</td>
-      </tr>
-    </table>
-    <hr>
-    <a href="hobbies.html">View my hobbies here</a>
-    <a href="contact_page.html">Contact me</a>
-  </body>
+        <h2>Get In Touch</h2>
+        <h3>Don't be afraid to reach out</h3>
+        <p>We can chat about how make our websites pop, or we can chat about the craziest places we took naps.</p>
+        <button>CONTACT ME</button> 
+        <footer>
+            <a class="contacts" href="#">LinkedIn</a> 
+            <a class="contacts" href="#">Twitter</a> 
+            <a class="contacts" href="#">GitHub</a> 
+        </footer> 
+        <p>© Sean Horace.</p>
+    </div>
+</body>
 </html>
